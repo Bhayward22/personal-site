@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Software Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">// alex.dev</div>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <p class="hero-label">Software Engineer &amp; Builder</p>
+      <h1>Crafting code<br>that <span>actually matters.</span></h1>
+      <p class="hero-sub">I design and build scalable software — from sleek frontends to resilient backend systems. Turning complex problems into elegant, maintainable solutions.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View my work →</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">scroll to explore</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="reveal">
+      <p class="section-label">About me</p>
+      <h2>Engineer by trade,<br>problem-solver by nature.</h2>
+      <p class="about-text">I'm a software engineer with a passion for building products that are fast, reliable, and delightful to use. I thrive at the intersection of clean architecture and intuitive user experience.</p>
+      <p class="about-text" style="margin-top:.75rem;">Whether it's architecting microservices, optimizing database queries, or shipping pixel-perfect interfaces — I care deeply about the craft.</p>
+      <div class="stats">
+        <div class="stat"><div class="stat-num">5+</div><div class="stat-label">Years experience</div></div>
+        <div class="stat"><div class="stat-num">20+</div><div class="stat-label">Projects shipped</div></div>
+        <div class="stat"><div class="stat-num">8</div><div class="stat-label">Open source repos</div></div>
+        <div class="stat"><div class="stat-num">3</div><div class="stat-label">Companies impacted</div></div>
+      </div>
+    </div>
+    <div class="reveal" style="transition-delay:.15s">
+      <p class="section-label">Tech stack</p>
+      <h2>Tools I work with daily.</h2>
+      <div class="skills-list">
+        <span class="skill-tag">TypeScript</span>
+        <span class="skill-tag">React</span>
+        <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">PostgreSQL</span>
+        <span class="skill-tag">Redis</span>
+        <span class="skill-tag">Docker</span>
+        <span class="skill-tag">Kubernetes</span>
+        <span class="skill-tag">AWS</span>
+        <span class="skill-tag">GraphQL</span>
+        <span class="skill-tag">REST APIs</span>
+        <span class="skill-tag">CI/CD</span>
+        <span class="skill-tag">Rust</span>
+        <span class="skill-tag">Terraform</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <p class="section-label">Projects</p>
+      <h2>Things I've built.</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-icon">⚡</div>
+        <div>
+          <div class="project-title">Pulse Analytics</div>
+          <div class="project-desc">Real-time event pipeline processing 1M+ events/day. Built with Kafka, Go, and a React dashboard with sub-second latency.</div>
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">Go</span>
+          <span class="project-tag">Kafka</span>
+          <span class="project-tag">React</span>
+          <span class="project-tag">ClickHouse</span>
+        </div>
+        <a href="#" class="project-link">View project →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-header reveal">
+      <p class="section-label">Experience</p>
+      <h2>Where I've worked.</h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-date">2024 — Present</div>
+        <div>
+          <div class="timeline-role">Engineering Manager</div>
+          <div class="timeline-company">Everbridge Inc.</div>
+          <ul class="timeline-desc">
+            <li>Partnered with product, design, data, and customer-facing teams to translate business requirements into actionable technical roadmaps, ensuring engineering priorities aligned with customer needs and long-term product strategy.</li>
+            <li>Reduced tech debt backlog by 50% over 6 months by implementing CI/CD, automated testing, code review standards, and agile workflows — improving developer productivity, reducing defects, and accelerating release cycles.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-date">2019 — 2024</div>
+        <div>
+          <div class="timeline-role">Technical Application Team Lead</div>
+          <div class="timeline-company">Infinite Blue Applications</div>
+          <ul class="timeline-desc">
+            <li>Led the application development team in creating automated data integrations and workflows with 3rd party software such as ServiceNow, Everbridge, Workday, and Tableau.</li>
+            <li>Modernized the application by implementing new product modules with React JS.</li>
+            <li>Created code standards across all GitHub repos, instituted a better code review process, and assisted in architecture-led discussions around app performance.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-date">2017 — 2019</div>
+        <div>
+          <div class="timeline-role">Frontend Web Developer</div>
+          <div class="timeline-company">Think it First</div>
+          <ul class="timeline-desc">
+            <li>Built 5+ responsive websites and landing pages using Bootstrap 4, SASS, JavaScript, and PHP within WordPress, improving page performance and user experience across multiple client projects.</li>
+            <li>Streamlined deployment workflows by managing code versioning and production pushes through GitHub, ensuring smooth launches and minimal downtime.</li>
+            <li>Developed custom plugin data APIs and Vue.js components for an internal admin dashboard, increasing data accessibility and operational efficiency.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="reveal">
+      <p class="section-label">Contact</p>
+      <div class="contact-headline">Let's build something great.</div>
+      <p class="contact-sub">Open to new opportunities, collaborations, and interesting conversations. If you have a project in mind or just want to connect — my inbox is always open.</p>
+      <div class="contact-actions">
+        <a href="mailto:benjamin_hayward@outlook.com" class="btn btn-primary">Send an email →</a>
+        <a href="#" class="btn btn-ghost">Download CV</a>
+      </div>
+      <div class="social-links">
+        <a href="#" class="social-link">GitHub</a>
+        <a href="#" class="social-link">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-copy">© 2026 Ben Dev. Built with care.</div>
+    <div class="footer-copy">Designed &amp; developed by me.</div>
+  </footer>
+
+  <script>
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
